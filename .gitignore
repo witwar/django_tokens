@@ -1,0 +1,14 @@
+# .gitignore
+*.pyc
+__pycache__
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
