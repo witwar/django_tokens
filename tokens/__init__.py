@@ -43,7 +43,13 @@ class TokenParser:
 
             return handler(context)
 
-        return re.sub(self.pattern, replacer, text)
+        # return re.sub(self.pattern, replacer, text)
+        while True:
+            new_text = re.sub(self.pattern, replacer, text)
+            if new_text == text:
+                break
+            text = new_text
+        return text
 
 
 token_parser = TokenParser()
