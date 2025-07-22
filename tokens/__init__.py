@@ -40,16 +40,9 @@ class TokenParser:
             token_attrs = {k: v for k, v in attrs.items() if k in self.ALLOWED_OVERRIDE}
             context.update(token_attrs)
             context["_original_token"] = token
-
             return handler(context)
 
-        # return re.sub(self.pattern, replacer, text)
-        while True:
-            new_text = re.sub(self.pattern, replacer, text)
-            if new_text == text:
-                break
-            text = new_text
-        return text
+        return re.sub(self.pattern, replacer, text)
 
 
 token_parser = TokenParser()
@@ -69,6 +62,6 @@ def img_handler(attrs):
         return attrs.get("_original_token", "")
 
     images = {img.id: img for img in object_images}
-    attrs["object_images"] = [images[id] for id in image_ids if id in images]
+    attrs["images"] = [images[id] for id in image_ids if id in image_ids]
 
-    return render_to_string("tokens/img.html", attrs)
+    return render_to_string("tokens/img.html", attrs).strip()
