@@ -1,5 +1,7 @@
 # Django Tokens
 
+---
+
 <a name="russian"></a>
 🇷🇺 **Документация на русском** | 🇬🇧 [English Documentation](#english)
 
@@ -258,6 +260,7 @@ witwar (witwar@gmail.com)
 - [GitHub](https://github.com/witwar/django-tokens)
 - [Issues](https://github.com/witwar/django-tokens/issues)
 
+---
 
 <a name="english"></a>
 🇷🇺 [Документация на русском](#russian) | 🇬🇧 **English Documentation**
