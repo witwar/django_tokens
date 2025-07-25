@@ -9,12 +9,12 @@ Django Tokens — это простая и расширяемая Django-биб�
 
 ## Описание
 
-Сразу после установки `django-tokens` позволяет заменять специальные токены вида `[[img ids="11"]]` на реальные изображения или любой другой контент. Библиотека предоставляет гибкую систему для определения собственных обработчиков токенов. 
+Сразу после установки `django_tokens` позволяет заменять специальные токены вида `[[img ids="11"]]` на реальные изображения или любой другой контент. Библиотека предоставляет гибкую систему для определения собственных обработчиков токенов. 
 
 ## Установка
 
 ```bash
-pip install django-tokens
+pip install git+https://github.com/witwar/django_tokens
 ```
 
 Добавьте `tokens` в `INSTALLED_APPS`:
@@ -257,8 +257,8 @@ witwar (witwar@gmail.com)
 
 ## Ссылки
 
-- [GitHub](https://github.com/witwar/django-tokens)
-- [Issues](https://github.com/witwar/django-tokens/issues)
+- [GitHub](https://github.com/witwar/django_tokens)
+- [Issues](https://github.com/witwar/django_tokens/issues)
 
 ---
 
@@ -269,12 +269,12 @@ Django Tokens — simple and extensible Django library for parsing and replacing
 
 ## Description
 
-Right after installation, `django-tokens` allows you to replace special tokens like `[[img ids="11"]]` with actual images or any other content. The library provides a flexible system for defining custom token handlers.
+Right after installation, `django_tokens` allows you to replace special tokens like `[[img ids="11"]]` with actual images or any other content. The library provides a flexible system for defining custom token handlers.
 
 ## Installation
 
 ```bash
-pip install django-tokens
+pip install git+https://github.com/witwar/django_tokens
 ```
 
 Add `tokens` to `INSTALLED_APPS`:
@@ -517,5 +517,5 @@ witwar (witwar@gmail.com)
 
 ## Links
 
-- [GitHub](https://github.com/witwar/django-tokens)
-- [Issues](https://github.com/witwar/django-tokens/issues)
+- [GitHub](https://github.com/witwar/django_tokens)
+- [Issues](https://github.com/witwar/django_tokens/issues)

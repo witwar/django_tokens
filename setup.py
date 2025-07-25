@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='django-tokens',
+    name='django_tokens',
     version='0.3.0',
     packages=find_packages(),
     include_package_data=True,
@@ -17,7 +17,7 @@ setup(
     description='A Django app for handling tokens in text',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/witwar/django-tokens',
+    url='https://github.com/witwar/django_tokens',
     
     # Classifiers help users find your project
     classifiers=[
@@ -50,7 +50,7 @@ setup(
     
     # Optional but recommended
     project_urls={
-        'Source': 'https://github.com/witwar/django-tokens',
-        'Tracker': 'https://github.com/witwar/django-tokens/issues',
+        'Source': 'https://github.com/witwar/django_tokens',
+        'Tracker': 'https://github.com/witwar/django_tokens/issues',
     },
 )
